@@ -33,7 +33,7 @@
             }
         },
         "subnetsURI": {
-            "value": "https://<<preCreatedStorageAccount>>.blob.core.windows.net/<<preCreatedStorageContainer>>/networking.output.Subnets.json"
+            "value": "https://myResourceGroup.blob.core.windows.net/<<preCreatedStorageContainer>>/networking.output.Subnets.json"
         },
         "_sasToken": {
             "value": "<<sasTokenfromPreCreatedStorageAccount>>"

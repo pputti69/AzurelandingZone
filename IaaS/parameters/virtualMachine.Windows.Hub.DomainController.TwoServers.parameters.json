@@ -77,7 +77,7 @@
       "value": "8a39bca0-efef-4174-8614-6abbed56fec0"
     },
     "dataDiskURI": {
-      "value": "https://<<preCreatedStorageAccount>>.blob.core.windows.net/<<preCreatedStorageContainer>>/IaaS/nestedTemplates/virtualMachine.output.dataDisks.json"
+      "value": "https://myResourceGroup.blob.core.windows.net/<<preCreatedStorageContainer>>/IaaS/nestedTemplates/virtualMachine.output.dataDisks.json"
     },
     "backupVM": {
       "value": true
@@ -92,7 +92,7 @@
       "value": "DomainController.ps1"
     },
     "dscPackageUri": {
-      "value": "https://<<preCreatedStorageAccount>>.blob.core.windows.net/<<preCreatedStorageContainer>>/packages/dsc.DomainController.zip"
+      "value": "https://myResourceGroup.blob.core.windows.net/<<preCreatedStorageContainer>>/packages/dsc.DomainController.zip"
     },
     "_sasToken": {
       "value": "<<sasTokenfromPreCreatedStorageAccount>>"

@@ -66,7 +66,7 @@ The design of this Azure Landing Zone is based on the best-practice Hub and Spok
      - `<<email>>`, email address to get Azure Security Centre alerts.
      - `<<phone>>`, E164 phone number for Microsoft Support to call the customer on.
 4. Create a single Resource Group in Azure using the naming standard agreed in step 3. Inside that create the storage account, again using the agreed naming standard with a blob container that has a read/list SAS token. TIP: Use [Storage Explorer](https://azure.microsoft.com/en-us/features/storage-explorer/) for creating the blob and SAS token after you created the resource group. Find-and-replace parameters:
-   - `<<preCreatedStorageAccount>>`, the storage account name.
+   - `myResourceGroup`, the storage account name.
    - `<<preCreatedStorageContainer>>`, the blob container name.
    - `<<sasTokenfromPreCreatedStorageAccount>>`, the read/list SAS token.
 5. Update the ARM templates, again using find-and-replace, the storage account blob URI for the files. You should see this in all the ARM templates.

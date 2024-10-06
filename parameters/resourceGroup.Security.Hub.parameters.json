@@ -34,15 +34,15 @@
                 "deploymentsLoop1": [
                     {
                         "name": "keyVault",
-                        "template_uri": "https://<<preCreatedStorageAccount>>.blob.core.windows.net/<<preCreatedStorageContainer>>/keyVault.json",
-                        "template_parameters_uri": "https://<<preCreatedStorageAccount>>.blob.core.windows.net/<<preCreatedStorageContainer>>/parameters/keyVault.Hub.parameters.json"
+                        "template_uri": "https://myResourceGroup.blob.core.windows.net/<<preCreatedStorageContainer>>/keyVault.json",
+                        "template_parameters_uri": "https://myResourceGroup.blob.core.windows.net/<<preCreatedStorageContainer>>/parameters/keyVault.Hub.parameters.json"
                     }
                 ],
                 "deploymentsLoop2": [
                     {
                         "name": "azurePolicy",
-                        "template_uri": "https://<<preCreatedStorageAccount>>.blob.core.windows.net/<<preCreatedStorageContainer>>/azurePolicy.json",
-                        "template_parameters_uri": "https://<<preCreatedStorageAccount>>.blob.core.windows.net/<<preCreatedStorageContainer>>/parameters/azurePolicy.Security.Hub.parameters.json"
+                        "template_uri": "https://myResourceGroup.blob.core.windows.net/<<preCreatedStorageContainer>>/azurePolicy.json",
+                        "template_parameters_uri": "https://myResourceGroup.blob.core.windows.net/<<preCreatedStorageContainer>>/parameters/azurePolicy.Security.Hub.parameters.json"
                     }
                 ],
                 "deploymentsLoop3": []

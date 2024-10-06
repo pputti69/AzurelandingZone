@@ -34,27 +34,27 @@
                 "deploymentsLoop1": [
                     {
                         "name": "networkSecurityGroups",
-                        "template_uri": "https://<<preCreatedStorageAccount>>.blob.core.windows.net/<<preCreatedStorageContainer>>/networking.networkSecurityGroup.json",
-                        "template_parameters_uri": "https://<<preCreatedStorageAccount>>.blob.core.windows.net/<<preCreatedStorageContainer>>/parameters/networking.networkSecurityGroup.Prod.parameters.json"
+                        "template_uri": "https://myResourceGroup.blob.core.windows.net/<<preCreatedStorageContainer>>/networking.networkSecurityGroup.json",
+                        "template_parameters_uri": "https://myResourceGroup.blob.core.windows.net/<<preCreatedStorageContainer>>/parameters/networking.networkSecurityGroup.Prod.parameters.json"
                     }
                 ],
                 "deploymentsLoop2": [
                     {
                         "name": "network",
-                        "template_uri": "https://<<preCreatedStorageAccount>>.blob.core.windows.net/<<preCreatedStorageContainer>>/networking.json",
-                        "template_parameters_uri": "https://<<preCreatedStorageAccount>>.blob.core.windows.net/<<preCreatedStorageContainer>>/parameters/networking.Prod.parameters.json"
+                        "template_uri": "https://myResourceGroup.blob.core.windows.net/<<preCreatedStorageContainer>>/networking.json",
+                        "template_parameters_uri": "https://myResourceGroup.blob.core.windows.net/<<preCreatedStorageContainer>>/parameters/networking.Prod.parameters.json"
                     }
                 ],
                 "deploymentsLoop3": [
                     {
                         "name": "vNetPeering",
-                        "template_uri": "https://<<preCreatedStorageAccount>>.blob.core.windows.net/<<preCreatedStorageContainer>>/networking.vNetPeering.json",
-                        "template_parameters_uri": "https://<<preCreatedStorageAccount>>.blob.core.windows.net/<<preCreatedStorageContainer>>/parameters/networking.vNetPeering.Prod.parameters.json"
+                        "template_uri": "https://myResourceGroup.blob.core.windows.net/<<preCreatedStorageContainer>>/networking.vNetPeering.json",
+                        "template_parameters_uri": "https://myResourceGroup.blob.core.windows.net/<<preCreatedStorageContainer>>/parameters/networking.vNetPeering.Prod.parameters.json"
                     },
                     {
                         "name": "azurePolicy",
-                        "template_uri": "https://<<preCreatedStorageAccount>>.blob.core.windows.net/<<preCreatedStorageContainer>>/azurePolicy.json",
-                        "template_parameters_uri": "https://<<preCreatedStorageAccount>>.blob.core.windows.net/<<preCreatedStorageContainer>>/parameters/azurePolicy.Network.Prod.parameters.json"
+                        "template_uri": "https://myResourceGroup.blob.core.windows.net/<<preCreatedStorageContainer>>/azurePolicy.json",
+                        "template_parameters_uri": "https://myResourceGroup.blob.core.windows.net/<<preCreatedStorageContainer>>/parameters/azurePolicy.Network.Prod.parameters.json"
                     }
                 ]
             }

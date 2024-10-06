@@ -34,8 +34,8 @@
                 "deploymentsLoop1": [
                     {
                         "name": "domainControllers",
-                        "template_uri": "https://<<preCreatedStorageAccount>>.blob.core.windows.net/<<preCreatedStorageContainer>>/otherTemplates/IaaS/virtualMachine.json",
-                        "template_parameters_uri": "https://<<preCreatedStorageAccount>>.blob.core.windows.net/<<preCreatedStorageContainer>>/otherTemplates/IaaS/parameters/virtualMachine.Windows.Hub.DomainControllers.PlainPassword.parameters.json"
+                        "template_uri": "https://myResourceGroup.blob.core.windows.net/<<preCreatedStorageContainer>>/otherTemplates/IaaS/virtualMachine.json",
+                        "template_parameters_uri": "https://myResourceGroup.blob.core.windows.net/<<preCreatedStorageContainer>>/otherTemplates/IaaS/parameters/virtualMachine.Windows.Hub.DomainControllers.PlainPassword.parameters.json"
                     }
                 ],
                 "deploymentsLoop2": [],
