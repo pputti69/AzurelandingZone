@@ -37,7 +37,7 @@ The way in which these templates were deployed originally was by using the Power
 Use either the Resource Group ARM templates or the individual templates to complete whatever deployment you need. These templates as their name implies are templates, and can be changed based on your future needs.
 
 ```powershell
-New-AzDeployment -Name "20211201-DeployResourceGroupSecurity" -Location "Australia East" -TemplateParameterFile .\parameters\resourceGroup.Security.Prod.parameters.json -TemplateFile .\resourceGroup.json
+New-AzDeployment -Name "20211201-DeployResourceGroupSecurity" -Location "Central US" -TemplateParameterFile .\parameters\resourceGroup.Security.Prod.parameters.json -TemplateFile .\resourceGroup.json
 ```
 
 ## Specific details
@@ -50,9 +50,9 @@ The design of this Azure Landing Zone is based on the best-practice Hub and Spok
 
 1. Create your Azure Subscription(s). Ideally you'd have two, one for Production, another for DevTest. Two is beneficial because of the cost savings you can get with DevTest pricing.
 2. Update the ARM templates subscriptionID parameter to the subscription you want to deploy into. You would split this by doing find and replace:
-   - `<<HubSubscriptionID>>` = Production subscription id
-   - `<<ProdSubscriptionID>>` = Production subscription id
-   - `<<DevSubscriptionID>>` = DevTest subscription id.
+   - `8a39bca0-efef-4174-8614-6abbed56fec0` = Production subscription id
+   - `8a39bca0-efef-4174-8614-6abbed56fec0` = Production subscription id
+   - `8a39bca0-efef-4174-8614-6abbed56fec0` = DevTest subscription id.
 3. Update the parameter files as needed to apply the prescribe naming standard you want.
    - By default these ARM templates are assumed to be deploying into AustraliaEast hence the location code is SYD, but if you wanted to deploy into another region, there is nothing stopping you from changing this, again with a find and replace across everything. You could duplicate this entire repo to deploy into two places if you wanted to as well!
    - Update the IP CIDR's for the vNet's and Subnets based on your wanted address space for Azure.

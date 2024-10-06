@@ -1,24 +1,24 @@
 {
-    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "$schema": "http://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
         "logAnalyticsWorkspaceName": {
-            "value":"<<customerCode>>-SYD-HUB-LAW-001"
+            "value":"PD-DAL-HUB-LAW-001"
         },
         "logAnalyticsResourceGroup": {
-            "value":"<<customerCode>>-SYD-HUB-ARG-Administration"
+            "value":"PD-DAL-HUB-ARG-Administration"
         },
         "logAnalyticsSubscriptionID": {
-            "value":"<<HubSubscriptionID>>"
+            "value":"8a39bca0-efef-4174-8614-6abbed56fec0"
         },
         "keyVaultSettings": {
             "value": {
                 "keyVaults": [
                   {
-                    "name": "<<customerCode>>-SYD-PRD-AKV-001",
-                    "location": "Australia East",
+                    "name": "PD-DAL-PRD-AKV-001",
+                    "location": "Central US",
                     "storageAccount": "<<customerCodeLowerCase>>sydhubsta001",
-                    "storageAccountARG": "<<customerCode>>-SYD-HUB-ARG-Administration",
+                    "storageAccountARG": "PD-DAL-HUB-ARG-Administration",
                     "sku": "Standard",
                     "AzureADGroupObjectID": "<<keyVaultAzADGroupId>>",
                     "daysLogged": 365

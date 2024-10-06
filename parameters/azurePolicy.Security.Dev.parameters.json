@@ -1,5 +1,5 @@
 {
-    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "$schema": "http://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
         "policyAssignments": {
@@ -7,9 +7,9 @@
                 {
                     "boolDeploy": false,
                     "name": "SecurityResourcesOnly",
-                    "displayName": "<<customerCode>>-SYD-DEV-ARG-Security/Security Resources Only",
+                    "displayName": "PD-DAL-DEV-ARG-Security/Security Resources Only",
                     "policyDefinition": "Allowed resource types",
-                    "scope": "/subscriptions/<<DevSubscriptionID>>/resourceGroups/<<customerCode>>-SYD-DEV-ARG-Security",
+                    "scope": "/subscriptions/8a39bca0-efef-4174-8614-6abbed56fec0/resourceGroups/PD-DAL-DEV-ARG-Security",
                     "notScopes": [],
                     "description": "Applies restriction so only Azure Security resources can be created.",
                     "parameters": {

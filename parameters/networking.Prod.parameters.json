@@ -1,14 +1,14 @@
 {
-    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "$schema": "http://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
         "networkSettings": {
             "value": {
                 "virtualNetworks": [
                     {
-                        "name": "<<customerCode>>-SYD-PRD-VNT-10.10.16.0",
-                        "location": "Australia East",
-                        "ARGName": "<<customerCode>>-SYD-PRD-ARG-Network",
+                        "name": "PD-DAL-PRD-VNT-10.10.16.0",
+                        "location": "Central US",
+                        "ARGName": "PD-DAL-PRD-ARG-Network",
                         "addressPrefixes": [
                             "10.10.16.0/21"
                         ],

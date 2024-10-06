@@ -1,21 +1,21 @@
 {
-  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "$schema": "http://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
     "workspaceName": {
-      "value": "<<customerCode>>-SYD-HUB-LAW-001"
+      "value": "PD-DAL-HUB-LAW-001"
     },
     "serviceTier": {
       "value": "PerGB2018"
     },
     "location": {
-      "value": "Australia East"
+      "value": "Central US"
     },
     "resourceGroupName": {
-      "value": "<<customerCode>>-SYD-HUB-ARG-Administration"
+      "value": "PD-DAL-HUB-ARG-Administration"
     },
     "subscriptionID": {
-      "value": "<<ProdSubscriptionID>>"
+      "value": "8a39bca0-efef-4174-8614-6abbed56fec0"
     },
     "solutionTypes": {
       "value": [

@@ -1,15 +1,15 @@
 {
-    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "$schema": "http://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
         "subscriptionID": {
-            "value": "<<DevSubscriptionID>>"
+            "value": "8a39bca0-efef-4174-8614-6abbed56fec0"
         },
         "rgName": {
-            "value": "<<customerCode>>-SYD-DEV-ARG-Security"
+            "value": "PD-DAL-DEV-ARG-Security"
         },
         "rgLocation": {
-            "value": "Australia East"
+            "value": "Central US"
         },
         "rgTags": {
             "value": {
