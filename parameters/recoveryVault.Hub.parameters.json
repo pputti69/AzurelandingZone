@@ -32,7 +32,7 @@
                         ],
                         "yearlyRetentionDurationCount": 7,
                         "daysLogged": 365,
-                        "storageAccount": "<<customerCodeLowerCase>>sydhubsta001",
+                        "storageAccount": "PDdalhubsta001",
                         "storageAccountARG": "PD-DAL-HUB-ARG-Administration"
                     }
                 ]

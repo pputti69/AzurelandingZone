@@ -17,14 +17,14 @@
                     {
                         "name": "Data-NSG",
                         "location": "Central US",
-                        "storageAccount": "<<customerCodeLowerCase>>sydhubsta001",
+                        "storageAccount": "PDdalhubsta001",
                         "storageAccountARG": "PD-DAL-HUB-ARG-Administration",
                         "daysLogged": 365
                     },
                     {
                         "name": "Management-NSG",
                         "location": "Central US",
-                        "storageAccount": "<<customerCodeLowerCase>>sydhubsta001",
+                        "storageAccount": "PDdalhubsta001",
                         "storageAccountARG": "PD-DAL-HUB-ARG-Administration",
                         "daysLogged": 365
                     }

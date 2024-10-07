@@ -6,7 +6,7 @@
             "value": {
                 "storageAccounts": [
                     {
-                        "name": "<<customerCodeLowerCase>>syddevsta001",
+                        "name": "PDdaldevsta001",
                         "location": "Central US",
                         "sku": "Standard_LRS",
                         "kind": "StorageV2",
